@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GraphicsEngine">
+      <UniqueIdentifier>{fbe0006b-3abe-4a9e-9586-7f4c74323937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsEngine\Core">
+      <UniqueIdentifier>{44bef856-2e00-457a-a0d9-15ee4165b692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects">
+      <UniqueIdentifier>{fbb7ab70-b578-4203-9aff-fbc0d70b88fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light">
+      <UniqueIdentifier>{5a63b49e-5137-49a5-90f6-62e82623114c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderStates">
+      <UniqueIdentifier>{28b3de55-45cb-4c06-9cf3-7568ac75c6ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vertex">
+      <UniqueIdentifier>{792abea0-4e9a-4a9c-a3e7-234ccbaadc77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientSize">
+      <UniqueIdentifier>{1724535d-bbeb-47c8-80c5-460035a04798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Err">
+      <UniqueIdentifier>{996eb454-6e37-4db1-b9d3-705a6c6520e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FX">
+      <UniqueIdentifier>{79f00f43-c237-4c94-a08a-33668e62ebf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderTarget">
+      <UniqueIdentifier>{1d2b4e48-13ca-467d-885b-cefa3746399a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderTarget\Drawer">
+      <UniqueIdentifier>{01eff946-feda-48f9-8128-8b52e939e8d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResourceManager">
+      <UniqueIdentifier>{4f7944e0-d140-4d1a-875d-c9627d50d725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh">
+      <UniqueIdentifier>{c8f40db3-ec0c-42ec-96a4-ad95d23520ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsEngine\Renderer">
+      <UniqueIdentifier>{448da078-1907-4318-b092-4f90243f413a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsEngine\Renderer\ObjectRenderer">
+      <UniqueIdentifier>{b2c0fed2-9eaa-4985-a405-244fafa88e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResourceManager\TextureLoader">
+      <UniqueIdentifier>{7b2861de-43ad-4241-80f6-bde06aa71f6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shadow">
+      <UniqueIdentifier>{5bd1763f-f8e5-45fc-b82d-8ec1f489cd48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SSAO">
+      <UniqueIdentifier>{3f345c31-02db-4bc2-a7df-7e84b341c7a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{33f327dd-f2a9-4a85-b6ce-86d5b7973327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsEngine\Renderer\DebugRenderer">
+      <UniqueIdentifier>{67ffe644-c79b-408e-a3a2-cfe666084221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsEngine\Renderer\PostRenderer">
+      <UniqueIdentifier>{81554dbd-68bc-4496-88cf-d615b859b789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{d19f0c03-f27e-4038-972e-15558f3fdfe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing\Outline">
+      <UniqueIdentifier>{46459894-d737-4300-8fe4-6fce2ab8fcb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing\Blur">
+      <UniqueIdentifier>{66a8f158-8d04-4b33-ae81-564b1f5d2ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing\Anti-Aliasing">
+      <UniqueIdentifier>{70963b39-460c-4383-ba7a-a6cb30787775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DebugManager">
+      <UniqueIdentifier>{a09c7b14-44b9-43e8-805d-a3e35b8656fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Picking">
+      <UniqueIdentifier>{41f190a2-53f6-4088-b1ee-655a7973f17d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing\DOF">
+      <UniqueIdentifier>{c67edc94-b489-4751-92b1-d409be881868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing\Emissive">
+      <UniqueIdentifier>{413e58f4-774a-4a54-b54b-c24c2126f8c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing\RenderTarget Scaler">
+      <UniqueIdentifier>{7bdba0fa-cfa7-4d80-b960-3ee4815cbccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing\ToneMapping">
+      <UniqueIdentifier>{05d772cd-443d-4418-9cac-eab277860f03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particle System">
+      <UniqueIdentifier>{327f5271-8e14-448e-90be-79613ebb88ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skybox">
+      <UniqueIdentifier>{17be7415-5781-4e0e-953e-19b0d424cd26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicsEngine\Sharing Data">
+      <UniqueIdentifier>{df9987b0-8dfd-4db0-b7a1-b3353dc58f71}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ICore.h">
+      <Filter>GraphicsEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11Core.h">
+      <Filter>GraphicsEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="dxerr.h">
+      <Filter>Err</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderStates.h">
+      <Filter>RenderStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSize.h">
+      <Filter>ClientSize</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrChecker.h">
+      <Filter>Err</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTargetDrawer.h">
+      <Filter>RenderTarget\Drawer</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshBuilder.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryGenerator.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectMeshData.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>GraphicsEngine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderer.h">
+      <Filter>GraphicsEngine\Renderer\ObjectRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMeshRenderer.h">
+      <Filter>GraphicsEngine\Renderer\ObjectRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="TransparentMeshRenderer.h">
+      <Filter>GraphicsEngine\Renderer\ObjectRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget.h">
+      <Filter>RenderTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTargetOrder.h">
+      <Filter>RenderTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoader.h">
+      <Filter>ResourceManager\TextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMapper.h">
+      <Filter>Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="SSAOMapper.h">
+      <Filter>SSAO</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiAliasingManager.h">
+      <Filter>PostProcessing\Anti-Aliasing</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsEngine.h">
+      <Filter>GraphicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\IGraphicsEngine.h">
+      <Filter>GraphicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\GraphicsEngineMacroDefine.h">
+      <Filter>GraphicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\LightDefine.h">
+      <Filter>Light</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ObjectMeshInfo.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugColorRenderer.h">
+      <Filter>GraphicsEngine\Renderer\DebugRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="OutlineDrawer.h">
+      <Filter>PostProcessing\Outline</Filter>
+    </ClInclude>
+    <ClInclude Include="PostRenderer.h">
+      <Filter>GraphicsEngine\Renderer\PostRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredLightingManager.h">
+      <Filter>Light</Filter>
+    </ClInclude>
+    <ClInclude Include="BlurManager.h">
+      <Filter>PostProcessing\Blur</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugManager.h">
+      <Filter>DebugManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PickChecker.h">
+      <Filter>Picking</Filter>
+    </ClInclude>
+    <ClInclude Include="EmissiveMapper.h">
+      <Filter>PostProcessing\Emissive</Filter>
+    </ClInclude>
+    <ClInclude Include="ToneMapper.h">
+      <Filter>PostProcessing\ToneMapping</Filter>
+    </ClInclude>
+    <ClInclude Include="DOFDrawer.h">
+      <Filter>PostProcessing\DOF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Shared_RenderingData.h">
+      <Filter>GraphicsEngine\Sharing Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Scaler.h">
+      <Filter>PostProcessing\RenderTarget Scaler</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Particle System</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystemManager.h">
+      <Filter>Particle System</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="Cubemap.h">
+      <Filter>Skybox</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GraphicsEngine.cpp">
+      <Filter>GraphicsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11Core.cpp">
+      <Filter>GraphicsEngine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="dxerr.cpp">
+      <Filter>Err</Filter>
+    </ClCompile>
+    <ClCompile Include="DllMain.cpp" />
+    <ClCompile Include="Effects.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStates.cpp">
+      <Filter>RenderStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientSize.cpp">
+      <Filter>ClientSize</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTargetDrawer.cpp">
+      <Filter>RenderTarget\Drawer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryGenerator.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshBuilder.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>GraphicsEngine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderer.cpp">
+      <Filter>GraphicsEngine\Renderer\ObjectRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseMeshRenderer.cpp">
+      <Filter>GraphicsEngine\Renderer\ObjectRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="TransparentMeshRenderer.cpp">
+      <Filter>GraphicsEngine\Renderer\ObjectRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget.cpp">
+      <Filter>RenderTarget</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLoader.cpp">
+      <Filter>ResourceManager\TextureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowMapper.cpp">
+      <Filter>Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="SSAOMapper.cpp">
+      <Filter>SSAO</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiAliasingManager.cpp">
+      <Filter>PostProcessing\Anti-Aliasing</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="IGraphicsEngine.cpp">
+      <Filter>GraphicsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugColorRenderer.cpp">
+      <Filter>GraphicsEngine\Renderer\DebugRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="OutlineDrawer.cpp">
+      <Filter>PostProcessing\Outline</Filter>
+    </ClCompile>
+    <ClCompile Include="PostRenderer.cpp">
+      <Filter>GraphicsEngine\Renderer\PostRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredLightingManager.cpp">
+      <Filter>Light</Filter>
+    </ClCompile>
+    <ClCompile Include="BlurManager.cpp">
+      <Filter>PostProcessing\Blur</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugManager.cpp">
+      <Filter>DebugManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PickChecker.cpp">
+      <Filter>Picking</Filter>
+    </ClCompile>
+    <ClCompile Include="EmissiveMapper.cpp">
+      <Filter>PostProcessing\Emissive</Filter>
+    </ClCompile>
+    <ClCompile Include="ToneMapper.cpp">
+      <Filter>PostProcessing\ToneMapping</Filter>
+    </ClCompile>
+    <ClCompile Include="DOFDrawer.cpp">
+      <Filter>PostProcessing\DOF</Filter>
+    </ClCompile>
+    <ClCompile Include="Scaler.cpp">
+      <Filter>PostProcessing\RenderTarget Scaler</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Particle System</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystemManager.cpp">
+      <Filter>Particle System</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Skybox</Filter>
+    </ClCompile>
+    <ClCompile Include="Cubemap.cpp">
+      <Filter>Skybox</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="FXSource\Basic.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FXSource\Blur.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FXSource\Color.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FXSource\Common.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FXSource\DebugTexture.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FXSource\DeferredLighting.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FXSource\DOF.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FXSource\LightHelper.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FXSource\NormalMap.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FXSource\PostEffect.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FXSource\ShadowMap.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FXSource\Skinning.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FXSource\Sky.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FXSource\SSAO.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FXSource\SSAOBlur.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FXSource\MixTexture.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FXSource\FXAA.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FXSource\Outline.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FXSource\MotionBlur.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FXSource\ToneMapping.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FXSource\Emissive.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FXSource\DepthOfField.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FXSource\Bloom.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FXSource\Fire.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FXSource\DeferredLighting_PBR.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
