@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FBX">
+      <UniqueIdentifier>{daced363-1c1c-4085-84b0-f77459c90ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Data">
+      <UniqueIdentifier>{09d20a45-ef81-4ac5-93e3-bafeaaa8a838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="자체포맷 .erj">
+      <UniqueIdentifier>{f7f813ce-b257-4a1d-8702-874b69308cd9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MathConverter_Fbx.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\FBXParser.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ERJConverter.h">
+      <Filter>자체포맷 .erj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ParserData.h">
+      <Filter>Common Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\MeshAnimationData.h">
+      <Filter>Common Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ERJParser.h">
+      <Filter>자체포맷 .erj</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FBXParser.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="MathConverter_Fbx.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="ERJParser.cpp">
+      <Filter>자체포맷 .erj</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Common\ERJConverter.inl">
+      <Filter>자체포맷 .erj</Filter>
+    </None>
+  </ItemGroup>
+</Project>
